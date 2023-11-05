@@ -12,7 +12,8 @@ void MissionManager::addDrone(const SydioX2Drone& drone) {
 bool MissionManager::canTriangulatePosition(const PixelData& pixelData1, const PixelData& pixelData2, Eigen::Vector3d& out_estimate) {
     // If there aren't two drones, then we're basically trying to clap with one hand.
     if (drones.size() < 2) {
-        throw std::runtime_error("Need at least two drones to triangulate. It's like trying to high-five with one hand!");
+        std::cout << "Need at least two drones to triangulate. It's like trying to high-five with one hand!" << std::endl;
+        return false;
     }
 
     // Time is money, and I've got neither, so let's just assume the first two drones are the ones we're after.
