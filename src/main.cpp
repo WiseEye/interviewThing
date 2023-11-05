@@ -35,6 +35,11 @@ int main() {
     // Drum roll and... ta-da! The estimated object position.
         std::cout << "Estimated Object Position: " << objectPosition.transpose() << std::endl;
     }
+    
+    else
+    {
+        std::cout << "canTriangulatePosition failed: Uhhh something went wrong and we lost track of the turtle: " << objectPosition.transpose() << std::endl;
+    }
 
     // Return 0 because we're optimistic like that.
     return 0;
