@@ -1,7 +1,7 @@
 
 # Build and Run The Skydio Stalk The Turtle Program
 
-So, you decided to play Big Brother with drones and now want watch an unsuspecting turtle? Great! This README will guide you through the setup, so you can start spying on... I mean, *observing* turtles.
+So, you decided to play Big Brother with drones and now you want to watch an unsuspecting turtle? Great! This README will guide you through the setup, so you can start spying on... I mean, *observing* turtles.
 
 ## Preliminary Nagging
 
